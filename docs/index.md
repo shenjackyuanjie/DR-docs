@@ -34,7 +34,7 @@ features:
   - title: 帮助完善 DR
     details: DR 是一个开源项目! 来这里看看你需要怎么才能帮助 DR
     icon: 🎨
-    link: main/contributing
+    link: main/howto
   - title: 更新日志
     details: 来看看 DR 都更新了什么吧
     icon: 🔥
