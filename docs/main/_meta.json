@@ -1,0 +1,50 @@
+[
+    {
+        "type": "file",
+        "name": "readme",
+        "label": "DR 中文 readme"
+    },
+    {
+        "type": "file",
+        "name": "readme-en",
+        "label": "DR readme in English"
+    },
+    {
+        "type": "dir",
+        "name": "howto",
+        "label": "DR 贡献相关的内容",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "change_log",
+        "label": "DR 更新日志",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "plan_features",
+        "label": "DR 计划中的功能",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "dir",
+        "name": "nuitka",
+        "label": "一些 Nuitka 相关的内容",
+        "collapsible": true,
+        "collapsed": true
+    },
+    {
+        "type": "file",
+        "name": "rua",
+        "label": "一些怪东西"
+    },
+    {
+        "type": "dir",
+        "name": "no",
+        "label": "NO!"
+    }
+]

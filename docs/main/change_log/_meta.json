@@ -1,0 +1,22 @@
+[
+    {
+        "type": "file",
+        "name": "build_file",
+        "label": "DR 构建 更新日志"
+    },
+    {
+        "type": "dir",
+        "name": "sdk",
+        "label": "DR SDK 更新日志"
+    },
+    {
+        "type": "dir",
+        "name": "game",
+        "label": "DR game 更新日志"
+    },
+    {
+        "type": "file",
+        "name": "old",
+        "label": "DR 一些旧的更新日志"
+    }
+]
