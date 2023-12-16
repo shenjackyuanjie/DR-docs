@@ -23,6 +23,10 @@ features:
     details: 来看看 DR 到底是什么吧
     link: main/readme
     icon: 🏃🏻‍♀️
+  - title: Readme First!
+    details: Let's first check out what is DR
+    link: main/readme-en
+    icon: 🌍
   - title: 使用 Nuitka 打包
     details: Difficult Rocket 使用 Nuitka 打包, 作者甚至在 Nuitka 里有贡献, 这里是一些相关文档
     icon: 📦
@@ -31,13 +35,12 @@ features:
     details: DR 是一个开源项目! 来这里看看你需要怎么才能帮助 DR
     icon: 🎨
     link: main/contributing
-  - title: Simpler I18n solution
-    details: With the built-in I18n solution, you can easily provide multi-language support for documents or components.
-    icon: 🌍
-  - title: Static site generation
-    details: In production, it automatically builds into static HTML files, which can be easily deployed anywhere.
-    icon: 🌈
-  - title: Providing multiple custom capabilities
-    details: Through its extension mechanism, you can easily extend theme UI and build process.
+  - title: 更新日志
+    details: 来看看 DR 都更新了什么吧
     icon: 🔥
+    link: main/change_log
+  - title: 计划特性
+    details: DR 计划实现一些特性, 这里是一些相关文档
+    icon: 🌈
+    link: main/plan_features
 ---

@@ -45,6 +45,8 @@
     {
         "type": "dir",
         "name": "no",
-        "label": "NO!"
+        "label": "NO!",
+        "collapsible": true,
+        "collapsed": true
     }
 ]
