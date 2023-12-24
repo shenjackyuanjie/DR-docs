@@ -1,6 +1,11 @@
 [
     {
         "type": "file",
+        "name": "0-3",
+        "label": "0.3.x 更新日志"
+    },
+    {
+        "type": "file",
         "name": "0-2",
         "label": "0.2.x 更新日志"
     }
