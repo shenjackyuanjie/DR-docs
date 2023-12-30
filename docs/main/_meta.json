@@ -18,6 +18,13 @@
     },
     {
         "type": "dir",
+        "name": "lib-not-dr",
+        "label": "lib not dr 文档",
+        "collapsed": true,
+        "collapsible": true
+    },
+    {
+        "type": "dir",
         "name": "change_log",
         "label": "DR 更新日志",
         "collapsible": true,

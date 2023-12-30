@@ -1,0 +1,17 @@
+[
+    {
+        "type": "file",
+        "name": "0-4",
+        "label": "lndl 0.4 更新日志 (草稿)"
+    },
+    {
+        "type": "file",
+        "name": "0-3",
+        "label": "lndl 0.3 更新日志"
+    },
+    {
+        "type": "file",
+        "name": "old",
+        "label": "lndl 0.1-0.2 更新日志"
+    }
+]
