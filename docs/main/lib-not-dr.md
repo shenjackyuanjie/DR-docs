@@ -74,10 +74,10 @@ script = "xxx.py"
 ```
 
 > 通过 `lndl_nuitka` 命令行工具使用
+> 建议使用 `pip install lib-not-dr[nuitka]` 安装 lib-not-dr
 >
 > Use with `lndl_nuitka` command line tool
-
-> 建议使用 `pip install lib-not-dr[nuitka]` 安装 lib-not-dr
+> Recommend using `pip install lib-not-dr[nuitka]` to install lib-not-dr
 
 ```bash
 lndl_nuitka .
