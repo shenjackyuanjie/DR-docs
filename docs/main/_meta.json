@@ -50,6 +50,11 @@
         "label": "一些怪东西"
     },
     {
+        "type": "file",
+        "name": "cx_freeze",
+        "label": "cx_freeze 的怪东西"
+    },
+    {
         "type": "dir",
         "name": "no",
         "label": "NO!",
