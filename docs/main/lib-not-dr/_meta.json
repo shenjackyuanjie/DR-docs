@@ -1,5 +1,15 @@
 [
     {
+        "type": "file",
+        "name": "nuitka",
+        "label": "lndl-nuitka 文档"
+    },
+    {
+        "type": "file",
+        "name": "loggers",
+        "label": "logger 文档"
+    },
+    {
         "type": "dir",
         "name": "change_logs",
         "label": "lndl 更新日志"
