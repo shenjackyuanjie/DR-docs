@@ -33,6 +33,9 @@ pip install lib-not-dr[nuitka]
 > WIP
 > 等待 0.4.0
 
+[这里](./lib-not-dr/loggers.md) 有一个还在编写的文档
+[Here](./lib-not-dr/loggers.md) have a document I'm still working on
+
 ```python title="logger.py"
 from lib_not_dr import loggers
 
@@ -61,7 +64,8 @@ logger.trace('so this message will be in the same line', tag='same line!')
 >
 > Config in `pyproject.toml`
 
-前往 [example/nuitka](/example/nuitka) 查看更多例子
+[这里](./lib-not-dr/nuitka.md) 有一个还在编写的文档
+[Here](./lib-not-dr/nuitka.md) have a document I'm still working on
 
 ```toml title="pyproject.toml"
 [tool.lndl.nuitka.cli]
