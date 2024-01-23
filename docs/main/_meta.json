@@ -25,6 +25,13 @@
     },
     {
         "type": "dir",
+        "name": "ui",
+        "label": "pyglet-oreui 文档",
+        "collapsed": true,
+        "collapsible": true
+    },
+    {
+        "type": "dir",
         "name": "change_log",
         "label": "DR 更新日志",
         "collapsible": true,
