@@ -8,8 +8,8 @@
     "preview": "rspress preview"
   },
   "dependencies": {
-    "rspress": "^1.12.2",
+    "rspress": "^1.18.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.5"
   }
 }
