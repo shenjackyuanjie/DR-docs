@@ -19,9 +19,9 @@
 
 [About Versions](src/version.md)
 
-[![release version](https://img.shields.io/badge/Release-0.8.7.2-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
-[![pre version](https://img.shields.io/badge/Pre_Release-0.8.7.2-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
-[![devlo version](https://img.shields.io/badge/Devloping-0.9.0-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
+[![release version](https://img.shields.io/badge/Release-0.9.1.0-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
+[![pre version](https://img.shields.io/badge/Pre_Release-0.9.1.0-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
+[![devlo version](https://img.shields.io/badge/Devloping-0.9.2-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
 
 [![language badge](https://stats.deeptrain.net/repo/shenjackyuanjie/Difficult-Rocket?theme=dark)](https://stats.deeptrain.net/repo/shenjackyuanjie/Difficult-Rocket?theme=dark)
 
@@ -72,12 +72,16 @@ python DR.py
 
 ## Environment
 
->The developing environment used Python `3.8.10`, but `3.8+` is also available.
+> The developing environment used Python `3.8.10`, but `3.8+` is also available.
+>
+> After `3.8` EOL, `3.11` will be used as the developing environment.
+>
+> We use 3.8 for now because it's the last version officially support Windows 7.
 
 - `Develop platform 1 - Windows 10 x64 22H2`
-  - Python `3.8.10+`
-    - `requirements`
-  - `AMD R5 5600X`
+  - Python `3.8.18+`
+    - `Python 3.8.18+ (heads/3.8:7f59c4c1d4, Aug 26 2023, 00:20:02) [MSC v.1900 64 bit (AMD64)] on win32`
+  - `AMD R5 5800X`
   - `AMD RX 558 8G`
 
 ## Required Python Modules
@@ -93,13 +97,22 @@ python DR.py
 
 - Open Source Projects
   - [pyglet](https://github.com/pyglet/pyglet): GUI and graphics
-  - `tomlkit` toml parser
+  - tomls
+    - `tomlkit`
+    - `tomli`
+    - `rtoml`
   - `xmltodict`: translate data between xml and dict
   - `pyperclip`: paste board!
   - [rapier2d](https://rapier.rs/) : Phy simulate engine
   - [pyo3](https://pyo3.rs/main) : Rust Python Binding
 
+- Jundroo
+  - Thanks you for writing SR this ~~magical~~ fun game
+
 - Main contributors
+  - [@shenjackyuanjie](https://github.com/shenjackyuanjie) : Main developer
+  - [@sssssssboom](https://github.com/ssssssssboom) : DR game developer
+  - [@InfyniteHeap](https://github.com/InfyniteHeap) : DR rs developer
   - [@Rayawa](https://github.com/Rayawa) : Check mistake in docs & some translates
   - [@rouxiao-you](https://github.com/ruoxiao-you) : Translate chinese to English
   - [@Billchyi](https://github.com/Billchyi) : Check mistake in docs

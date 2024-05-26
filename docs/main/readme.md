@@ -19,9 +19,9 @@
 
 [关于版本号的说明](./docs/src/version.md)
 
-[![release version](https://img.shields.io/badge/Release-0.8.7.2-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
-[![pre version](https://img.shields.io/badge/Pre_Release-0.8.7.2-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
-[![devlo version](https://img.shields.io/badge/Devloping-0.9.0-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
+[![release version](https://img.shields.io/badge/Release-0.9.1.0-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
+[![pre version](https://img.shields.io/badge/Pre_Release-0.9.1.0-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
+[![devlo version](https://img.shields.io/badge/Devloping-0.9.2-blue.svg)](https://github.com/shenjackyuanjie/Difficult-Rocket/releases)
 
 [![language badge](https://stats.deeptrain.net/repo/shenjackyuanjie/Difficult-Rocket?theme=dark)](https://stats.deeptrain.net/repo/shenjackyuanjie/Difficult-Rocket?theme=dark)
 
@@ -72,12 +72,16 @@ python DR.py
 
 ## 环境需求
 
->开发环境使用的Python版本为`3.8.18`，但`3.8+`同样可用。
+> 开发环境使用的Python版本为`3.8.18`，但`3.8+`同样可用。
+>
+> 在 3.8 EOL 之后会使用 3.11 作为开发环境。
+>
+> 毕竟现在使用 3.8 开发是因为他官方支持 Windows 7，而 3.9+ 不支持。
 
 - `开发平台 1 - Windows 10 x64 22H2`
-  - Python `3.8.10+`
-    - `requirements`
-  - `AMD R5 5600X`
+  - Python `3.8.18+`
+    - `Python 3.8.18+ (heads/3.8:7f59c4c1d4, Aug 26 2023, 00:20:02) [MSC v.1900 64 bit (AMD64)] on win32`
+  - `AMD R5 5800X`
   - `AMD RX 580 8G`
 
 ## 需要的Python模块
@@ -93,13 +97,22 @@ python DR.py
 
 - 开源项目
   - [pyglet](https://github.com/pyglet/pyglet) : GUI 和画面渲染
-  - `tomlkit` : toml 解析器
+  - tomls
+    - `tomlkit`
+    - `tomli`
+    - `rtoml`
   - `xmltodict`: xml 与 dict 转换器
   - `pyperclip`: 剪贴板!
   - [rapier2d](https://rapier.rs/) : 物理模拟引擎
   - [pyo3](https://pyo3.rs/main): Rust Python 扩展
 
+- Jundroo
+  - 感谢为我们编写了 SR 这么一个 ~~魔法~~ 好玩的游戏
+
 - 主要贡献者
+  - [@shenjackyuanjie](https://github.com/shenjackyuanjie) : 主开发
+  - [@sssssssboom](https://github.com/ssssssssboom) : DR game 开发
+  - [@InfyniteHeap](https://github.com/InfyniteHeap) : DR rs 开发
   - [@Rayawa](https://github.com/Rayawa) : 文档矫正 & 翻译部分 lang
   - [@rouxiao-you](https://github.com/ruoxiao-you) : 翻译 lang
   - [@Billchyi](https://github.com/Billchyi) : 文档矫正
