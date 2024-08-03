@@ -2,7 +2,12 @@
 # DR 构建 更新日志
 
 - 最新构建版本号
-  - build_version: 3.0.0.0
+  - build_version: 3.0.1
+
+## 20240804 build 3.0.1
+
+- 还是 SemVer 语义化版本号好使
+- 加了个 cx_freeze 的构建 (`scripts/package.py`)
 
 ## 202310 build 3.0.0.0
 
