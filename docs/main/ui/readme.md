@@ -17,6 +17,8 @@ pyglet-oreui 是一个基于 pyglet 编写的 Ore UI 组件库, 用于 Difficult
 
 目前已经(其实是刚刚)完成了 Ore UI 的按钮组件
 
+![OreuiButton](/oreui/button.gif)
+
 你可以在 `Difficult_Rocket.gui.widget.button.OreuiButton` 中找到它
 
 使用方法参考文档吧(我还没写)
