@@ -5,7 +5,7 @@
         "label": "lndl-nuitka 文档"
     },
     {
-        "type": "file",
+        "type": "dir",
         "name": "loggers",
         "label": "logger 文档"
     },

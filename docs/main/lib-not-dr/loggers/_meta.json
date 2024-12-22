@@ -1,0 +1,12 @@
+[
+    {
+        "type": "file",
+        "name": "config_example",
+        "label": "复杂的 config 范例"
+    },
+    {
+        "type": "file",
+        "name": "level_file_example",
+        "label": "只在某个级别之上写入文件"
+    }
+]
