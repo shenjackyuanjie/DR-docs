@@ -181,8 +181,8 @@ packages:
     engines: {node: '>=14.0.0'}
     dev: false
 
-  /@rsbuild/core@1.1.11:
-    resolution: {integrity: sha512-PZM7yRt6noWycYi2h22QsOQ2VU4bBBgthOblVdu7HKoEM8GwYvVImKd9oNOF5Y5WJLS0TVAkU90DelNttnnQiw==}
+  /@rsbuild/core@1.1.12:
+    resolution: {integrity: sha512-9f+E47fMf51Cg4W7CF2Q4f7BRSslVV/+TRvs5ScclYanqXEFtAGV9nuecJEL6Qc9jJV61lES0esPTFdPPnWPGw==}
     engines: {node: '>=16.7.0'}
     hasBin: true
     dependencies:
@@ -192,32 +192,32 @@ packages:
       core-js: 3.39.0
     dev: false
 
-  /@rsbuild/plugin-less@1.1.0(@rsbuild/core@1.1.11):
+  /@rsbuild/plugin-less@1.1.0(@rsbuild/core@1.1.12):
     resolution: {integrity: sha512-F834dobNDIdyGj5trMxIqzm/qf54Kj5KVDxeuB3TTj64mzq5fHJnR4aI/iYIliUwICG1/l2MliKr5sR34Kb7eA==}
     peerDependencies:
       '@rsbuild/core': 1.x
     dependencies:
-      '@rsbuild/core': 1.1.11
+      '@rsbuild/core': 1.1.12
       deepmerge: 4.3.1
       reduce-configs: 1.1.0
     dev: false
 
-  /@rsbuild/plugin-react@1.1.0(@rsbuild/core@1.1.11):
+  /@rsbuild/plugin-react@1.1.0(@rsbuild/core@1.1.12):
     resolution: {integrity: sha512-uqdRoV2V91G1XIA14dAmxqYTlTDVf0ktpE7TgwG29oQ2j+DerF1kh29WPHK9HvGE34JTfaBrsme2Zmb6bGD0cw==}
     peerDependencies:
       '@rsbuild/core': 1.x
     dependencies:
-      '@rsbuild/core': 1.1.11
+      '@rsbuild/core': 1.1.12
       '@rspack/plugin-react-refresh': 1.0.1(react-refresh@0.16.0)
       react-refresh: 0.16.0
     dev: false
 
-  /@rsbuild/plugin-sass@1.1.2(@rsbuild/core@1.1.11):
+  /@rsbuild/plugin-sass@1.1.2(@rsbuild/core@1.1.12):
     resolution: {integrity: sha512-h/7WZbRloMxAAt/X52Pbyy3cNEIAKSSl39WG1VSoIBx6agW9qSLRx7zhRf1YlNt3C5G0n1pgDLpvtJSynqZ8OQ==}
     peerDependencies:
       '@rsbuild/core': 1.x
     dependencies:
-      '@rsbuild/core': 1.1.11
+      '@rsbuild/core': 1.1.12
       deepmerge: 4.3.1
       loader-utils: 2.0.4
       postcss: 8.4.49
@@ -356,10 +356,10 @@ packages:
       '@mdx-js/loader': 2.3.0(webpack@5.97.1)
       '@mdx-js/mdx': 2.3.0
       '@mdx-js/react': 2.3.0(react@18.3.1)
-      '@rsbuild/core': 1.1.11
-      '@rsbuild/plugin-less': 1.1.0(@rsbuild/core@1.1.11)
-      '@rsbuild/plugin-react': 1.1.0(@rsbuild/core@1.1.11)
-      '@rsbuild/plugin-sass': 1.1.2(@rsbuild/core@1.1.11)
+      '@rsbuild/core': 1.1.12
+      '@rsbuild/plugin-less': 1.1.0(@rsbuild/core@1.1.12)
+      '@rsbuild/plugin-react': 1.1.0(@rsbuild/core@1.1.12)
+      '@rsbuild/plugin-sass': 1.1.2(@rsbuild/core@1.1.12)
       '@rspress/mdx-rs': 0.6.4
       '@rspress/plugin-auto-nav-sidebar': 1.38.0
       '@rspress/plugin-container-syntax': 1.38.0
@@ -525,7 +525,7 @@ packages:
   /@rspress/shared@1.38.0:
     resolution: {integrity: sha512-PnyjsZ/zKVTy8FyG6LauinQ4hUeI/09rUdL1pM3MO2PRJ4KMieaUcybRbY8Yf+LOcQZyDLoonKflRgsg+iaHWQ==}
     dependencies:
-      '@rsbuild/core': 1.1.11
+      '@rsbuild/core': 1.1.12
       chalk: 5.3.0
       execa: 5.1.1
       fs-extra: 11.2.0
@@ -1028,8 +1028,8 @@ packages:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==}
     dev: false
 
-  /cross-spawn@7.0.3:
-    resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
+  /cross-spawn@7.0.6:
+    resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
     engines: {node: '>= 8'}
     dependencies:
       path-key: 3.1.1
@@ -1273,7 +1273,7 @@ packages:
     resolution: {integrity: sha512-8uSpZZocAZRBAPIEINJj3Lo9HyGitllczc27Eh5YYojjMFMn8yHMDMaUHE2Jqfq05D/wucwI4JGURyXt1vchyg==}
     engines: {node: '>=10'}
     dependencies:
-      cross-spawn: 7.0.3
+      cross-spawn: 7.0.6
       get-stream: 6.0.1
       human-signals: 2.1.0
       is-stream: 2.0.1
@@ -2683,7 +2683,7 @@ packages:
     resolution: {integrity: sha512-QU1PdC8bcH6/6HJ1ohUO75uPS+TZSysNNi64hR+wBUv6jklQVXjv6z8w6Xbndg+whSebuAZtmS0ox6C7h0tX5w==}
     hasBin: true
     dependencies:
-      '@rsbuild/core': 1.1.11
+      '@rsbuild/core': 1.1.12
       '@rspress/core': 1.38.0(webpack@5.97.1)
       '@rspress/shared': 1.38.0
       cac: 6.7.14
