@@ -18,9 +18,7 @@ export default defineConfig({
     markdown: {
         highlightLanguages: [
             ['py', 'python'],
-            'python',
             ['cfg', 'ini'],
-            'toml',
         ]
-    }
+    },
 });
